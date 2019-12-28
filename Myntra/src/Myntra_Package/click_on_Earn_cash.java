@@ -15,8 +15,15 @@ public class click_on_Earn_cash {
 	
 		Driver.get("https://www.myntra.com/");
 		Driver.findElement(By.xpath("//span[@class='referrals-banner-extra-button-padding']")).click();
-		String Title=Driver.getTitle();
+		Driver.findElement(By.xpath("//div[@class='copyCta']")).click();
+		Driver.findElement(By.xpath("//button[@class='login-facebook login-button']")).click();
+		
+		/*String Title=Driver.getTitle();
 		System.out.println(Title);
+		Driver.findElement(By.xpath("//a[@href='https://www.myntra.com/tac']")).click();
+		Driver.navigate().back();*/
+		
+		
 
 	}
 

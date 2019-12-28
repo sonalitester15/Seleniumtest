@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="55" started-at="2019-12-28T17:43:28Z" finished-at="2019-12-28T17:43:28Z">
+    <groups>
+      <group name="sonali">
+        <method signature="TestNG_Grouping.sonali_sitansu()[pri:0, instance:Myntra_Package.TestNG_Grouping@4f933fd1]" name="sonali_sitansu" class="Myntra_Package.TestNG_Grouping"/>
+      </group> <!-- sonali -->
+      <group name="Sitansu">
+        <method signature="TestNG_Grouping.sitansu()[pri:0, instance:Myntra_Package.TestNG_Grouping@4f933fd1]" name="sitansu" class="Myntra_Package.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.sonali_sitansu()[pri:0, instance:Myntra_Package.TestNG_Grouping@4f933fd1]" name="sonali_sitansu" class="Myntra_Package.TestNG_Grouping"/>
+      </group> <!-- Sitansu -->
+    </groups>
+    <test name="Test1" duration-ms="55" started-at="2019-12-28T17:43:28Z" finished-at="2019-12-28T17:43:28Z">
+      <class name="Myntra_Package.TestNG_Grouping">
+        <test-method status="PASS" signature="sitansu()[pri:0, instance:Myntra_Package.TestNG_Grouping@4f933fd1]" name="sitansu" duration-ms="16" started-at="2019-12-28T17:43:28Z" finished-at="2019-12-28T17:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sitansu -->
+        <test-method status="PASS" signature="sonali_sitansu()[pri:0, instance:Myntra_Package.TestNG_Grouping@4f933fd1]" name="sonali_sitansu" duration-ms="0" started-at="2019-12-28T17:43:28Z" finished-at="2019-12-28T17:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sonali_sitansu -->
+      </class> <!-- Myntra_Package.TestNG_Grouping -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
